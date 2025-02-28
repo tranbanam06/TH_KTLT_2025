@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bai1.4.2d"/>
+        <attribute name="authors" value="LAB1-PC10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-28 11:11:23 SA"/>
+        <attribute name="created" value="TEFCMS1QQzEwO0RFU0tUT1AtT0RFNklTMjsyMDI1LTAyLTI4OzA4OjE1OjExIFNBOzI4NzY="/>
+        <attribute name="edited" value="TEFCMS1QQzEwO0RFU0tUT1AtT0RFNklTMjsyMDI1LTAyLTI4OzExOjExOjIzIFNBOzQ7Mjk4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y" type="Real" array="False" size=""/>
+            <declare name="h" type="Real" array="False" size=""/>
+            <declare name="S" type="Real" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p c&#7841;nh &#273;&#225;y v&#224; chi&#7873;u cao c&#7911;a tam gi&#225;c&quot;" newline="True"/>
+            <input variable="c"/>
+            <input variable="h"/>
+            <assign variable="S" expression="1/2*c*h"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c S: &quot;" newline="True"/>
+            <output expression="S" newline="True"/>
+            <output expression="&quot;Sinh vi&#234;n: Tr&#7847;n B&#225; Nam&quot;" newline="True"/>
+            <output expression="&quot;MSV: 235752020710046&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
