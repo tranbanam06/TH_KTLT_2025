@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bai1c"/>
+        <attribute name="authors" value="W10"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-05-09 07:46:21 SA"/>
+        <attribute name="created" value="VzEwO0RFU0tUT1AtSkVNUFFGQjsyMDI1LTAyLTI4OzA3OjE0OjQ0IEFNOzI1NTQ="/>
+        <attribute name="edited" value="VzEwO0RFU0tUT1AtSkVNUFFGQjsyMDI1LTAzLTAxOzA0OjUyOjQwIFBNOzQ7MjY2Nw=="/>
+        <attribute name="edited" value="VE9BTjtERVNLVE9QLTgwOUlUMjM7MjAyNS0wNS0wOTswNzo0NjoyMSBTQTsxOzI2OTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="d" type="Real" array="False" size=""/>
+            <declare name="h" type="Real" array="False" size=""/>
+            <output expression="&quot; vui l&#242;ng nh&#7853;p chi&#7873;u d&#224;i &#273;&#225;y:&quot;" newline="True"/>
+            <input variable="d"/>
+            <output expression="&quot;Vui l&#242;ng nh&#7853;p &#273;&#7897; cao&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="d*h/2"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c l&#224;:&quot;" newline="True"/>
+            <output expression="s" newline="True"/>
+            <output expression="&quot;Sinh vi&#234;n: Tr&#7847;n B&#225; Nam&quot;" newline="True"/>
+            <output expression="&quot;MSSV: 235752020710046&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
