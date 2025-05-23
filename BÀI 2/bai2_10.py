@@ -1,7 +1,0 @@
-a=input("Nhap mot cau: ")
-b=a.split()
-print (b)
-c=" ".join(b)
-print(c)
-print ("Sinh Viên: Tran Ba Nam")
-print ("MSV: 235752020710046")
